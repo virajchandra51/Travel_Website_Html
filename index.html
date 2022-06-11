@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./static/island.png" />
+    <!-- SWIPER CSS -->
+    <link rel="stylesheet" href="./swiper-bundle.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ICONS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Travel Island</title>
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <nav class="nav bd-container">
+        <a href="#" class="nav__logo">Travel</a>
+        
+        <div class="nav__menu" id="nav-menu">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Explore</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Destinations</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">Hotels</a></li>
+          </ul>
+        </div>
+
+        <div class="nav__toggle" id="nav-toggle">
+          <i class='bx bx-menu'></i>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <div class="swiper-container gallery-top">
+        <div class="swiper-wrapper">
+          <!-- Island1 -->
+          <section class="islands swiper-slide">
+            <img src="./static/borabora.jpg" alt="" class="islands__bg">
+            <div class="islands__container bd-container">
+              <div class="islands__data">
+                <h2 class="islands__subtitle">Islands</h2>
+                <h1 class="islands__title">Bora Bora</h1>
+                <p class="islands__description">Small South Pacific island northwest of Tahiti in French Polyesia surrounded by motus.</p>
+                <a href="#" class="islands__button">Explore <i class="bx bx-right-arrow-alt islands__button-icon"></i></a>
+              </div>
+
+              <div class="islands__video">
+                <div class="islands__video-content">
+                    <i class='bx bx-play-circle islands__video-icon'></i>
+                </div>
+              </div> 
+            </div>
+          </section>
+          <!-- Island2 -->
+          <section class="islands swiper-slide">
+            <img src="./static/bali.jpg" alt="" class="islands__bg">
+            <div class="islands__container bd-container">
+              <div class="islands__data">
+                <h2 class="islands__subtitle">Islands</h2>
+                <h1 class="islands__title">Bali</h1>
+                <p class="islands__description">It is an Indonesian island known and beautiful for it's lush active volcanic mountains</p>
+                <a href="#" class="islands__button">Explore <i class="bx bx-right-arrow-alt islands__button-icon"></i></a>
+              </div>
+              
+              <div class="islands__video">
+                <div class="islands__video-content">
+                    <i class='bx bx-play-circle islands__video-icon'></i>
+                </div>
+              </div> 
+            </div>
+          </section>
+          <!-- Island3 -->
+          <section class="islands swiper-slide">
+            <img src="./static/palawan.jpg" alt="" class="islands__bg">
+            <div class="islands__container bd-container">
+              <div class="islands__data">
+                <h2 class="islands__subtitle">Islands</h2>
+                <h1 class="islands__title">Palawan</h1>
+                <p class="islands__description">Also known as La Paragua, it is the largest island in the province of Palawan.</p>
+                <a href="#" class="islands__button">Explore <i class="bx bx-right-arrow-alt islands__button-icon"></i></a>
+              </div>
+              
+              <div class="islands__video">
+                <div class="islands__video-content">
+                    <i class='bx bx-play-circle islands__video-icon'></i>
+                </div>
+              </div> 
+            </div>
+          </section>
+        </div>
+      </div>
+      <!-- Controls -->
+      <div class="controls gallery-thumbs">
+        <div class="controls__container swiper-wrapper">
+          <img src="./static/borabora.jpg" alt="" class="controls__img swiper-slide">
+          <img src="./static/bali.jpg" alt="" class="controls__img swiper-slide">
+          <img src="./static/palawan.jpg" alt="" class="controls__img swiper-slide">
+        </div>
+      </div>
+    </main>
+    <!-- GSAP -->
+    <script src="./gsap.min.js"></script>
+    <!-- SWIPER JS -->
+    <script src="./swiper-bundle.min.js"></script>
+    <!-- JS -->
+    <script src="./main.js"></script>
+  </body>
+</html>
