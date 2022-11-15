@@ -1,0 +1,35 @@
+{
+	"folders": [
+		{
+			"path": "../../CodeForces"
+		},
+		{
+			"path": ".."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"*.html": "html",
+			"ostream": "cpp",
+			"iosfwd": "cpp",
+			"iostream": "cpp",
+			"string": "cpp",
+			"numeric": "cpp",
+			"vector": "cpp",
+			"list": "cpp",
+			"stack": "cpp",
+			"regex": "cpp",
+			"memory": "cpp",
+			"utility": "cpp",
+			"map": "cpp",
+			"span": "cpp",
+			"ios": "cpp",
+			"set": "cpp",
+			"filesystem": "cpp",
+			"queue": "cpp",
+			"functional": "cpp"
+		},
+		"liveServer.settings.multiRootWorkspaceName": "Projects",
+		"git.ignoreLimitWarning": true
+	}
+}
